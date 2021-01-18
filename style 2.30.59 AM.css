@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+ html,body{overflow-x: hidden;}
+
+body{
+
+	background-color: #03000e;
+	color:#fff;
+	
+}
+
+
+#container{
+	height: 80vw;
+	width: 90%;
+	background-color: #00ffac38;
+	margin: 10% auto;
+	position: relative;
+
+
+
+}
+
+
+
+.msg{
+	background-color: #1fe68a87;
+	width: 30%;
+	padding:20px;
+	text-align: center;
+	position: absolute;
+	right: 35%;
+	top: 10%;
+	border-radius: 20px;
+	font-size: 15px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+#fruit-box{
+	width: 70vw;
+	height: 35vw;
+	background-color: #0ebdf157;
+	margin:10vw 50vw 1vw 10vw;
+	font-size: 10vw;
+	text-align: center;
+	line-height: 20vw;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+
+
+	
+	
+	
+	
+	}
+
+	#fruit-box p {
+		font-size: 1vw;
+	}
+
+
+#instructions{
+	margin:1vw 3vw 1vw 20vw;
+	background-color: #1fe68a87;
+	width: 50vw;
+	height: 5vw;
+	text-align: center;
+	line-height: 5vw;
+	font-size: 2vw;
+
+	
+}
+
+
+
+
+
+
+#start-reset{
+	background-color: #1fe68a87;
+	width: 20vw;
+	height: 4vw;
+	line-height: 4vw;
+	font-size: 2vw;
+	border-radius: 1vw;
+	margin:auto;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	-o-box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+	position: relative;
+
+}
+
+#start-reset:active{
+	box-shadow: 0px 0px 0px;
+	-moz-box-shadow: 0px 0px 0px;
+	-webkit-box-shadow: 0px 0px 0px;
+	-o-box-shadow: 0px 0px 0px;
+	-ms-box-shadow: 0px 0px 0px;
+	top:4px;
+}
+
+#life-ramaining{
+	background-color:  #fff;
+	width: 20vw;
+	height: 3vw;
+	position: absolute;
+	top:6.5vw;
+	left: 10vw;
+	padding: 1.5vw;
+	font-size: 1.2vw;
+	display: block;
+	text-align: center;
+}
+
+
+#score{
+	padding: 1.5vw;
+	background-color: #1fe68a87;
+	width: 25vw;
+	border-radius: 10vw;
+	position: absolute;
+	right: 10vw;
+	top: 4.5vw;
+	text-align: center;
+	font-size: 2vw;
+
+}
+
+#game-over{
+	background:linear-gradient(red, yellow) ;
+	width: 48vw;
+	height: 31vw;
+	text-align: center;
+	position: absolute;
+	top: 12vw;
+	left: 22vw;
+	font-size: 2.5vw;
+	line-height: 7vw;
+	z-index: 2;
+	display: none;
+	color: black;
+
+}
+
+.life{
+	width: 25px;
+	height: 20px;
+	margin: 0 5px;
+
+}
+
+img{
+	width: 100px;
+	height: 110px;
+}
+
+.fruit{
+	display: none;
+	position: absolute;
+	
+
+}
+
